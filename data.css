@@ -1,8 +1,9 @@
 body {
     margin: 0;
     font-family: 'Padauk', sans-serif;
-    background-color: #f4f4f4;
+    background-color: #fff;
     overflow-x: hidden;
+    /* background-color: #9eb9f3 */
   }
   
   a {
@@ -32,18 +33,21 @@ body {
     padding: 20px 20px;
     border-right: 1px solid #f4f4f4;
     text-decoration: none;
+    color: #1d6996;
   }
   
   .header li a:hover,
   .header .menu-btn:hover {
-    background-color: #f4f4f4;
+    color: black;
+    font-weight: bold;
+
   }
   
   .header .logo {
     display: block;
     float: left;
     font-size: 2em;
-    padding: 10px 20px;
+    padding: 10px 30px;
     text-decoration: none;
   }
   
@@ -53,6 +57,7 @@ body {
     clear: both;
     max-height: 0;
     transition: max-height .2s ease-out;
+    padding-top: 20px;
   }
   
   /* menu icon */
