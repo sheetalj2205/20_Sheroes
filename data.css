@@ -6,9 +6,9 @@ body {
     /* background-color: #9eb9f3 */
   }
   
-  a {
+  /* a {
     color: #000;
-  }
+  } */
   
   /* header */
   
@@ -38,7 +38,7 @@ body {
   
   .header li a:hover,
   .header .menu-btn:hover {
-    color: black;
+    color: #1d6996;
     font-weight: bold;
 
   }
