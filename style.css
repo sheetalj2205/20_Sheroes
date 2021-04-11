@@ -58,7 +58,7 @@ img {
   color: #fff;
 }
 .btn:focus, .btn:active, .btn:focus:active {
-  background: black;
+  background: #fff;
   border-color: #f4f4f4;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5) inset;
 }
