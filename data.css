@@ -168,6 +168,9 @@ body {
     display: table;
     clear: both;
   }
+  .space{
+    height: 350px;
+  }
   
   /* Responsive columns */
   @media screen and (max-width: 600px) {
@@ -175,6 +178,10 @@ body {
       width: 100%;
       display: block;
       margin-bottom: 50px;
+      height: 510px;
+    }
+    .space{
+      height: 30px;
     }
   }
   
