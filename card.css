@@ -3,7 +3,8 @@ body{
     padding: 0px;
 
     .navbar-brand{
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Padauk', sans-serif;
+  font-size: 100%;
       }
    
     .container-fluid{
