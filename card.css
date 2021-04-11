@@ -1,0 +1,259 @@
+body{
+    height: 100%;
+    padding: 0px;
+
+    .navbar-brand{
+    font-family: 'Libre Baskerville', serif;
+      }
+   
+    .container-fluid{
+    width: 100%;
+    padding-left: 0px;
+    height: 100vh;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom:  100%;
+    left: 0;
+    right: 0;
+    background-color: #E72850;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+  }
+  .card{
+    position: relative;
+    width: 33%;
+  }
+  .card.container{
+    display: block;
+    width: 100%;
+    height: auto;
+  
+  }
+  
+  
+  
+  .card.text {
+    color:black;
+    font-size: 20px;
+    position: absolute;
+    bottom:0%;
+    left: 50%;
+    
+  }
+  
+      h1 {
+      position: absolute;
+      font-size: 33px;
+      background-color:transparent;
+      color:black;
+      top:140px;
+      right: 38px;
+      border-radius: 10px;
+      text-align: center;
+      font-family: 'Raleway', sans-serif;
+      overflow: hidden;
+  }
+  
+  h2 {
+    position: relative;
+    font-size: 33px;
+    background-color:transparent;
+    color:black;
+    font-family: 'Raleway', sans-serif;
+    overflow: hidden;
+}
+  
+  
+  .blue{
+    height:100vh;
+    background-color:white;
+    opacity: 0.9;
+  }
+  
+  .rowHeight{
+    height: 100px;
+  }
+  
+  .pr{
+    font-weight: bold;
+    font-size: 12px;
+  }
+  .price{
+    font-size: 10px;
+  }
+  
+
+  
+  .blue  {
+    display: block;
+    position: relative;
+  }
+  .ora{
+    height:1000px;
+  }
+  .store{
+    height:200px;
+    background-color: #f5f1f0;
+    justify-content: center;
+    text-align: center;
+  
+  }
+  .st{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    padding-top:20px;
+  
+  }
+  
+  
+  .tv{
+    font-size: 13px;
+    letter-spacing:0.1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* padding-top: 30px; */
+  }
+  .tz{
+    font-size: 15px;
+    letter-spacing:0.1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 60px;
+    font-weight: bold;
+    opacity: 1;
+  }
+  .rs{
+    height: 28px;
+  }
+  .rw{
+    height:15px;
+  }
+  .intro{
+    color:white;
+    font-weight: bold;
+    font-size: 13px;
+  }
+  
+  .tn{
+    padding: 13px;
+    font-size: 9px;
+  
+  }
+  
+  
+
+  
+  
+  
+  
+  
+  
+  @media (min-width: 992px){
+  
+     
+   
+   .blue{
+     height:100vh;
+     background-color:white;
+     opacity: 0.9;
+   }
+   .overlay {
+    position: absolute;
+    bottom:  100%;
+    left: 0;
+    right: 0;
+    background-color: #E72850;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+  }
+  .card{
+    position: relative;
+    width: 40%;
+  }
+  
+  .card:hover .overlay {
+    bottom: 0;
+    height: 100%;
+  }
+  .text {
+    color:white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+  }
+   .rowHeight{
+     height: 250px;
+   }
+   .pr{
+     font-weight: bold;
+     font-size: 18px;
+   }
+   .price{
+     font-size: 15px;
+   }
+   .store{
+     height:200px;
+     background-color: #f5f1f0;
+     text-align: center;
+  }
+   .st{
+     font-family: 'Libre Baskerville', serif;
+     font-weight: bold;
+     color: black;
+     font-size: 25px;
+     padding-top:20px;
+  
+   }
+  
+  .loc{
+    background-color: black;
+    height: 15px;
+  }
+   .ora{
+     height: 550px;
+   }
+   .foot{
+     background-color: white;
+     opacity: 0.6;
+     height: 200px;
+  
+   }
+   .tv{
+     font-size: 13px;
+     letter-spacing:0.1px;
+     padding-left: 10px;
+     padding-right: 10px;
+     padding-top: 30px;
+   }
+   .tz{
+     font-size: 15px;
+     letter-spacing:0.1px;
+     padding-left: 10px;
+     padding-right: 10px;
+     padding-top: 60px;
+   }
+   
+   .rs{
+     height: 28px;
+   }
+   .rw{
+     height:15px;
+   }
+   
+
+   
+}
+  
